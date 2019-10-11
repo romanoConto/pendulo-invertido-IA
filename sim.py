@@ -45,7 +45,7 @@ class ExampleApp(QtWidgets.QMainWindow, ui_main.Ui_MainWindow):
         self.signal.connect(self.draw)
 
         # model object
-        self.mdl = model.model([0, 10*pi/180])
+        self.mdl = model.model([0, 15*pi/180])
         self.rdoDin.setChecked(True)
         self.mdl.enableDin()
         # controller object
